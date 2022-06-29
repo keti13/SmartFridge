@@ -1,3 +1,47 @@
-#myH1{
-    color:red;
+#listFoodBtn{
+    width: 45%;
+    position: absolute;
+    top: 70%;
+    right: 22%;
+}
+#welcome{
+    color: #fa891e;
+    position: absolute;
+    margin-left: 5%;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+.banner{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 50%;
+}
+#foodListH2{
+    text-align: center;
+    color:white;
+    margin-top: 2%;
+}
+#deleteBtn{
+    background-color: #9c150b;
+    color: white;
+    width: 100px;
+}
+#deleteBtn:hover{
+    background-color: #ed6b6b;
+}
+#foodTable{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 85%;
+    color: white;
+    border-right: 2px;
+}
+#foodTable thead{
+    background-color: #9c150b;
+    color: white;
 }

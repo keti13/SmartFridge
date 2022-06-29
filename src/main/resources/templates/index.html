@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
-    <link ref="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
 </head>
-<body>
-<h1 id="myH1">Welcome to my application</h1>
-<div>
-    <a th:href="@{/foods}">List of Foods</a>
-</div>
+<body style="background-color: black">
+    <div class = "banner">
+        <img src = "https://ak.picdn.net/shutterstock/videos/1057971751/thumb/12.jpg" alt="img">
+        <a th:href="@{/foods}"  type="button" class="btn btn-success btn-lg" id= "listFoodBtn">List of Foods</a>
+        <h1 id="welcome">Welcome to Smart Fridge</h1>
+    </div>
 </body>
 </html>

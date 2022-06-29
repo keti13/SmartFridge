@@ -9,4 +9,8 @@ public class FoodService {
     public Iterable<Food> listAll(){
         return repo.findAll();
     }
+
+    public void delete(int id){
+        repo.deleteById(id);
+    }
 }

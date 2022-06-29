@@ -13,13 +13,5 @@ import org.springframework.test.annotation.Rollback;
 public class RepositoryTest {
     @Autowired private Repository repo;
 
-    @Test
-    public void testListAll(){
-        Iterable<Food> foods = repo.findAll();
-        Assertions.assertThat(foods).hasSizeGreaterThan(0);
-        for(Food food : foods){
-            System.out.println(food);
-        }
-    }
 
 }

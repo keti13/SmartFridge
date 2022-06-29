@@ -7,7 +7,7 @@ import java.util.Objects;
 @Table(name = "Food")
 public class Food {
     @Id
-    private Long id;
+    private int id;
     @Column(nullable = false, unique = true)
     private String name;
     private String expirationDate;
@@ -25,12 +25,12 @@ public class Food {
         this.quantity = quantity;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
 
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
